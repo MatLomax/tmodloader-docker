@@ -24,6 +24,7 @@ RUN \
 	wget https://github.com/tModLoader/tModLoader/releases/download/v0.11.1/tModLoader.Linux.v0.11.1.zip &&\
 	unzip tModLoader.Linux.v*.zip &&\
 	rm tModLoader.Linux.v*.zip &&\
+	chmod u+x Terraria &&\
 	chmod u+x tModLoaderServer* &&\
 	\
 	# access data directory \
